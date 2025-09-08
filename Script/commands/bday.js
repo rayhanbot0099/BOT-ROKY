@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event }) => {
 
  if (diffDays === 1) {
  const tomorrowMessage =
-`👉Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!\n অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল!\n\n উইশ করতে ভুলবে না কিন্তু...🥰😘
+`👉Admin RAKIB এর জন্মদিন আগামীকাল!\n অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল!\n\n উইশ করতে ভুলবে না কিন্তু...🥰😘
 `;
  return api.sendMessage(tomorrowMessage, event.threadID, event.messageID);
  }
@@ -33,7 +33,7 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays === 0) {
  const happyBirthdayMessage = 
 `╔═══ 🎉 𝐇𝐀𝐏𝐏𝐘 𝐁𝐈𝐑𝐓𝐇𝐃𝐀𝐘 🎉 ════╗
-║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔 💖 
+║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - RAKIB HASAN ROKY  💖 
 ╟─────────────────
 ║ 🎂 Everyone Please Wish Him Today! 
 ║ 🥳 আজ আমাদের Boss এর জন্মদিন! 
@@ -41,14 +41,12 @@ module.exports.run = async ({ api, event }) => {
 ╟─────────────────
 ║ 📩 Connect With Him: 
 ║ ➤ 📘 Facebook : 
-║ www.facebook.com/61575698041722 
+║ www.facebook.com/61577566859134
 ║ ➤ 💬 Messenger : 
-║ m.me/61575698041722 
-║ ➤ 📱 WhatsApp : 
-║ https://wa.me/+8801882333052 
+║ m.me/61577566859134
 ╟─────────────────
 ║ 🫶 উইশ করো, দোয়া করো?
-║ এবং ভালোবাসা জানাও প্রিয় বস সাহুকে! ❤️‍🩹 
+║ এবং ভালোবাসা জানাও প্রিয় বস রকিকে! ❤️‍🩹 
 ╚═════════════════════════╝`;
  return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
  }
@@ -56,7 +54,7 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays < 0) {
  const leakMessage =
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin ROKY
 ║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
 ╚═══════════════════╝`;
  return api.sendMessage(leakMessage, event.threadID, event.messageID);
@@ -64,7 +62,7 @@ module.exports.run = async ({ api, event }) => {
 
  const countdownMessage = 
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin ROKY
 ║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
@@ -73,7 +71,7 @@ module.exports.run = async ({ api, event }) => {
 ║ ⏳ Seconds : ${diffSeconds}
 ╚════════════════════╝`;
 
- const url = `https://graph.facebook.com/61575698041722/picture?height=720&width=720`;
+ const url = `https://graph.facebook.com/61577566859134/picture?height=720&width=720`;
 
  try {
  const response = await axios({
