@@ -3,7 +3,7 @@ module.exports.config = {
   eventType: ["log:unsubscribe"],
   version: "1.0.0",
   credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-  description: "Thông báo bot hoặc người rời khỏi nhóm",
+  description: "Thông báo b hoặc người rời khỏi nhóm",
   dependencies: {
     "fs-extra": "",
     "path": ""
