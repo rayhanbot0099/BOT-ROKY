@@ -20,7 +20,7 @@ module.exports.run = async ({ api, event, args }) => {
  
  
  const messages = [
- "☆《ANIME VIDEO》☆"
+ "☆《ANIME VIDEO ROKY》☆"
  ];
  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
  
